@@ -190,7 +190,7 @@ cd validators/validator1 && ../../utils/geth --nousb --datadir=$pwd --syncmode '
 ```
 - Copy Enode:
 ```
-INFO [12-23|15:19:04.669] Started P2P networking                   self=enode://061128ea0a67e04017832cf85d6c560a6464db7b475da2161cb8f97341969c8cfe3b749a14fca28b3e3cd0965c4dc6a5d8978a8c85b53881d2e99d602c6379e7@127.0.0.1:30310
+INFO [12-23|15:19:04.669] Started P2P networking self=enode://061128ea0a67e04017832cf85d6c560a6464db7b475da2161cb8f97341969c8cfe3b749a14fca28b3e3cd0965c4dc6a5d8978a8c85b53881d2e99d602c6379e7@127.0.0.1:30310
 ```
 In my case is ```enode://061128ea0a67e04017832cf85d6c560a6464db7b475da2161cb8f97341969c8cfe3b749a14fca28b3e3cd0965c4dc6a5d8978a8c85b53881d2e99d602c6379e7@127.0.0.1:30310```
 
@@ -202,7 +202,7 @@ cd validators/validator2 && ../../utils/geth --nousb --datadir=$pwd --syncmode '
 
 - Copy Enode:
 ```
-INFO [12-23|15:23:49.558] Started P2P networking                   self=enode://ca3a50686129eb9cae43f1b6d1bb14fd47dbd5845ca7a0f3ea5a40e6d8364ec5c10fe634e9a6fbdf5cea662937d0093cd238c24abbe114804132232289bbb83e@127.0.0.1:30311
+INFO [12-23|15:23:49.558] Started P2P networking self=enode://ca3a50686129eb9cae43f1b6d1bb14fd47dbd5845ca7a0f3ea5a40e6d8364ec5c10fe634e9a6fbdf5cea662937d0093cd238c24abbe114804132232289bbb83e@127.0.0.1:30311
 ```
 #### **Validator3**
 
@@ -249,12 +249,3 @@ cd scripts && bash validator2.sh
 ```
 cd scripts && bash validator3.sh
 ```
-
-
-
-
-
-
-
-
-
