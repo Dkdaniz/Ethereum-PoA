@@ -211,7 +211,7 @@ cd validators/validator3 && ../../utils/geth --nousb --datadir=$pwd --syncmode '
 ```
 
 ```
-INFO [12-23|15:23:49.558] Started P2P networking                   self=enode://5e0a0e476051c69f24914c5880e682567c745ddcc43f844d8816f838688e415347df096d82e990e45736b75df7db80ea2c2c815052cc202df3583b7a6e52ae8c@127.0.0.1:30312
+INFO [12-23|15:23:49.558] Started P2P networking self=enode://5e0a0e476051c69f24914c5880e682567c745ddcc43f844d8816f838688e415347df096d82e990e45736b75df7db80ea2c2c815052cc202df3583b7a6e52ae8c@127.0.0.1:30312
 ```
 
 ### **11 - Create static-nodes.json file**
