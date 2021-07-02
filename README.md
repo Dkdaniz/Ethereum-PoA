@@ -4,6 +4,8 @@ In this repository your will find a step by step for setup an Ethereum private n
 
 ## Install Geth + Tools
 
+- build for your SO
+
 - Access the link: https://geth.ethereum.org/downloads/ 
 
 - In the **Stable Releases** do the Download of **Geth & Tools** current stable release
