@@ -2,6 +2,14 @@
 
 In this repository your will find a step by step for setup an Ethereum private network with the Consensus PoA (Proof of Authority).
 
+## Install Go-lang
+
+```
+sudo add-apt-repository ppa:longsleep/golang-backports 
+sudo apt update 
+sudo apt install golang-go
+```
+
 ## Install Geth + Tools
 
 - Access and clone the repository: https://github.com/Dkdaniz/go-ethereum
