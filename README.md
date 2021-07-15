@@ -193,6 +193,11 @@ What would you like to do? (default = stats)
 
 ### **10 - Run the Nodes**
 
+### **Fullnode Without Validator**
+```
+nohup ../../utils/geth --nousb --datadir=$pwd --syncmode 'full' --port 30311 --rpc --rpcaddr 0.0.0.0 --rpccorsdomain "" --rpcport "8547" --rpcapi "db, eth, net, web3, personal" --ws --wsport 8548 --wsaddr 0.0.0.0 --wsorigins "" --wsapi "web3, eth" &
+```
+
 #### **Validator1**
 
 ```
